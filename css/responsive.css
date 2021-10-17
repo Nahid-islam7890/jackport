@@ -1,0 +1,86 @@
+@media (max-width:991px){
+    .navbar .navbar-brand {
+        position: static !important;
+    }
+    .navbar .nav-link {
+        line-height: 57px;
+        padding: 0 !important;
+    }
+    .navbar-toggler {
+        border: 1px solid var(--hc);
+        color: var(--hc) !important;
+        background: #6923d4;
+        border-radius: 0 !important;
+    }
+    .navbar-toggler:focus {
+       box-shadow: none;
+    }
+    /* ==========
+    navbar css end
+    ============ */
+    #banner .banner-text {
+             padding-top: 0px !important;
+            padding-bottom: 66px !important;
+    
+    }
+    #banner .banner-text h1 {
+        font-size: 180px;
+        margin-top: -25px;
+    }
+    #banner .banner-text p {
+        font-size: 13px;
+        font-family: var(--mf);
+        color: #fff;
+        font-weight: 400;
+        margin-top: -20px;
+        min-width: none;
+    }
+    #free-spin .free-spin-text {
+         padding-top: 0px !important;
+        padding-bottom: 73px;
+    }
+    #free-spin .free-spin-text h3{
+        margin-bottom: 18px !important;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    #banner .banner-text h1 {
+        font-size: 91px;
+        margin-top: -13px;
+    }
+    #banner .banner-text p {
+        font-size: 11px;
+        font-family: var(--mf);
+        color: #fff;
+        font-weight: 400;
+        margin-top: -9px;
+        min-width: none;
+    }
+    #funfact .funfact-text {
+        margin-top: 0 !important;
+    }
+    #game .game-item {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    #subscribe h3 {
+        font-size: 29px !important;
+      
+    }
+  
+}
+@media (max-width:576px){
+    #funfact .funfact-text {
+        margin-top: 0 !important;
+    }
+    #game .game-item {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    #tournament .tounament-item h3 {
+        font-size: 32px;
+    }
+    #tournament .tournament-img h3 {
+        font-size: 32px;
+    }
+}
